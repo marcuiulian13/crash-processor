@@ -51,3 +51,7 @@ To get stats about a project, you can run:
 ```
 curl --location --request GET 'localhost:3000/crash-reports/1234'
 ```
+
+## Scaling
+
+The crash reports consumer can be scaled easily by using `docker-compose up --scale slave=<number-of-slave-instances>`.
